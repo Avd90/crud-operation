@@ -23,8 +23,8 @@ const User = () => {
         setUser(res.data);
     };
     return (
-        <div className="container py-4">
-            <div className="w-50 mx-auto shadow p-5">
+        <div className="container py-8">
+            <div className="w-75 mx-auto shadow p-5">
                 <Link className="btn btn-primary" to="/"> Back to Home </Link>
                 <h1 className="text-center mb-4">User Id: {id}</h1>
                 <hr />

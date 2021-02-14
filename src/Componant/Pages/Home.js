@@ -22,7 +22,7 @@ const Home = ()=> {
 
     return(
         <div className="container">
-            <div className="py-4">
+            <div className="p-4">
                 <h1 className="text-center mb-4">Home Page</h1>
                 <table className="table border shadow">
                     <thead className="thead-dark">
